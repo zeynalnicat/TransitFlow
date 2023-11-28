@@ -1,0 +1,41 @@
+.background {
+  height: 100%;
+  position: relative;
+}
+
+.phone {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111c55;
+  border: 1px solid #2d3a7b;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+}
+
+.parent>p {
+  margin: 1px;
+  padding: 1px;
+}
+
+.connect {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shekil {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 40%;
+}

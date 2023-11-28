@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.planePhoto {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.planePhoto > img {
+  width: 900px;
+  height: 600px;
+  position: relative;
+  left: 100px;
+  display: flex;
+  z-index: 2;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  position: absolute;
+  width: 380px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  left: 50%;
+  transform: translate(-50%,);
+  height: 120px;
+  padding: 20px;
+  color: #1c1f35;
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 2;
+  display: flex;
+  background: rgb(255, 182, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 182, 41, 1) 0%,
+    rgba(255, 218, 86, 1) 35%,
+    rgba(255, 215, 166, 1) 100%
+  );
+}
+.rahib{
+  position:relative;
+  left: 0;
+}
+
+.Right {
+  background-image: url(../../assets/worldwide.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  gap: 20px;
+}
+.first {
+  text-align: start;
+  width: 500px;
+  gap: 20px;
+}
+.first > p {
+  color: #666c89;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+}
+.iconparent {
+  box-sizing: border-box;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 182, 41, 1) 0%,
+    rgba(255, 218, 86, 1) 35%,
+    rgba(255, 215, 166, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.input{
+  width: 250px;
+  height: 50px;
+  background-color: #091242;
+  outline: none;
+  border: 1px solid #4E5683;
+  padding: 5px 20px;
+  color: white;
+}
